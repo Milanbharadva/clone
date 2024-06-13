@@ -59,10 +59,14 @@ const Header = () => {
                   stroke="currentColor"
                 ></path>
               </svg>
-              <span className="text-[#8C97A2] text-nowrap">Search For</span>
-              <h1 className="overflow-hidden whitespace-nowrap font-bold ml-2 text-[#8C97A2]">
-                "Hello World"
-              </h1>
+              <span className="text-[#8C97A2] text-nowrap pr-2">
+                Search For
+              </span>
+              <div className="w-max">
+                <h1 className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-black pr-5 text-[#8C97A2] font-bold">
+                  "Hello World"
+                </h1>
+              </div>
             </div>
             <div className="ml-3 lg:ml-4 xl:ml-14">
               <p className=" text-12 lg:text-14 whitespace-nowrap text-grey-900">
@@ -207,10 +211,12 @@ const Header = () => {
                   stroke="currentColor"
                 ></path>
               </svg>
-              <span className="text-[#8C97A2] text-nowrap">Search For</span>
-              <h1 className="overflow-hidden whitespace-nowrap font-bold ml-2 text-[#8C97A2]">
-                "Hello World"
-              </h1>
+              <span className="text-[#8C97A2] text-nowrap mr-2">Search For</span>
+              <div className="w-max">
+                <h1 className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-black pr-5 text-[#8C97A2] font-bold">
+                  "Hello World"
+                </h1>
+              </div>
             </div>
             <div className="pr-2">
               <svg
