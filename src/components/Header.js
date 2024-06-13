@@ -3,7 +3,10 @@ import React from "react";
 const Header = () => {
   return (
     <>
-      <header className="sticky top-0 z-[99999999] bg-white">
+      <header
+        className="sticky top-0 z-[99999999] bg-white"
+        style={{ boxShadow: "rgba(108, 98, 98, 0.2) 0px 0px 10px 3px" }}
+      >
         <div className="px-4 py-3 2xl:px-16 xl:py-4">
           <div className="flex items-center">
             <div className="flex items-center">
